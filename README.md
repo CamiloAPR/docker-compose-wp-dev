@@ -2,7 +2,7 @@
 In a personal need to introduce myself to Docker this is my first official attempt to get into it. Hopefully, we'll see an evolution here ;D . Also, I hope this can come up handy to anyone in need of something like this for personal projects.
 So, this _docker-compose_ file will mount a virtual environment for you to develop a WordPress site, using the Latest WordPress version available.
 
-# INSTRUCTIONS
+## INSTRUCTIONS
 Run the following command where the docker-compose file is located: 
 
 `docker-compose up`
@@ -13,9 +13,9 @@ After a couple of minutes you should be able to access the WP site at http://172
 
 And that's it!, from now on you're good to go.
 
-# DEPENDENCIES
+## DEPENDENCIES
 Well, we just need docker-compose, so [follow this link](https://docs.docker.com/compose/install/#master-builds) and get it running on your machine.
 
-# References
+## References
 1. https://docs.docker.com/compose/wordpress/#define-the-project
 2. https://www.sitepoint.com/how-to-use-the-official-docker-wordpress-image/
