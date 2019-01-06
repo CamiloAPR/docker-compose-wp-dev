@@ -3,7 +3,7 @@ In a personal need to introduce myself to Docker this is my first official attem
 *So, this _docker-compose_ file will mount a virtual environment for you to develop a WordPress site, using the Latest WordPress version available*.
 
 # INSTRUCTIONS
-Run the following commands where the docker-compose file is located: 
+Run the following command where the docker-compose file is located: 
 
 `docker-compose up`
 
