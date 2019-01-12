@@ -15,6 +15,11 @@ After a couple of minutes you should be able to access the WP site at http://172
 
 And that's it!, from now on you're good to go.
 
+## ADD DUMP from Prod
+
+`docker exec -i $(docker ps -qf "name=db") mysql -uwordpress -pwordpress wordpress < ~/path/in/host/to/dump.sql`
+
+
 ## DEPENDENCIES
 Well, we just need docker-compose, so [follow this link](https://docs.docker.com/compose/install/#master-builds) and get it running on your machine.
 
