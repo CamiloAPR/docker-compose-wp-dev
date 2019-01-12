@@ -18,7 +18,7 @@ And that's it!, from now on you're good to go.
 ## ADD DUMP from Prod
 
 `docker exec -i $(docker ps -qf "name=db") mysql -uwordpress -pwordpress wordpress < ~/path/in/host/to/dump.sql`
-
+_**Note:** `$(docker ps -qf "name=db")` will get the ID of the containers named 'db' currently running. So, if you have more than one running maybe just run `docker container ps` and pick your desired ID manually._
 
 ## DEPENDENCIES
 Well, we just need docker-compose, so [follow this link](https://docs.docker.com/compose/install/#master-builds) and get it running on your machine.
