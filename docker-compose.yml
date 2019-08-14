@@ -19,7 +19,7 @@ services:
        - db
      image: wordpress:4.9.8
      ports:
-       - 8080:80
+       - 80:80
      volumes:
        - ./:/var/www/html
      restart: always
@@ -30,6 +30,6 @@ services:
 volumes:
     db_data: {}
 
-# RUN sudo chmod 644 -R ./
+# RUN sudo chmod 755 -R ./
 
 
